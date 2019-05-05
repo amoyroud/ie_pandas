@@ -7,7 +7,7 @@ The aim of this package is to create a Python library with a simplified DataFram
 
 This package is based on NumPy, the Python library for fast numeric array computations.
 
-##Special Methods  
+## Special Methods  
 ### __init__
 The `__init__` speciql method allows support for integers, floats, booleans and non-numerical string columns.  
 To be initalized it must consist of a dictionnary of NumPy arrays or a list. It must have a consistent number of rows to work.  
@@ -26,21 +26,21 @@ This function allows you to access individual entries corresponding to the row
 
 ## Arithmetic Operators  
 The Arithmetic Operators work through the use of the `aggFunction`. This function serves to replicate its functionalities accross the different arithmetic functions.   
-###.sum()  
+### .sum()  
 This function computes the summed value of the NumPy array  
-###.median()  
+### .median()  
 This function computes the median value of the NumPy array  
-###.min()  
+### .min()  
 This function computes the minimum value of the NumPy array  
-###.max()  
+### .max()  
 This function computes the maximum value of the NumPy array  
-###.var()  
+### .var()  
 This function computes the variance of the NumPy array  
-###.std()  
+### .std()  
 This function computes the standard deviation of the NumPy array  
-###.argmin()
+### .argmin()
 This function returns the indices of the minimum values of the NumPy array  
-###.argmax()
+### .argmax()
 This function returns the indices of the maximum values of the NumPy array  
 
 
