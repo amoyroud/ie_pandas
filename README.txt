@@ -9,3 +9,4 @@ Important info:
 -To run the unit tests (located in the tests folder) use pytest. Ex: 'pytest test_ie_pandas.py'
 -If you have any contributions feel free to create pull requests and we will consider your suggestions!
 
+You can access the documentation through: https://amoyroud.github.io/ie_pandas/
